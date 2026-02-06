@@ -1,0 +1,8 @@
+eval_samples: 1496
+hparams: /DepthPrior/object_detection/efficientdet/configs/train/allclasses_orig.yaml
+infer_folder: /DepthPrior/datasets/KITTI/training/image_2/
+infer_indices: /DepthPrior/datasets/KITTI/tf_stac/num_labeled_10/V1/KITTI_10_infer_indices_V1.txt
+model_dir: /DepthPrior/object_detection/efficientdet/models/trained_models/STAC/KITTI_STAC_teacher10_V1
+saved_model_dir: /DepthPrior/models/exported_models/SSL/EXP_KITTI_STAC_teacher10_V1
+val_file_pattern: /DepthPrior/datasets/KITTI/tf/_val.tfrecord
+video_path: /DepthPrior/datasets/videos/xyz.mp4

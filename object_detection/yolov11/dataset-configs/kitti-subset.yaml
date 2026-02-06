@@ -1,0 +1,11 @@
+names:
+  0: Pedestrian
+  1: Car
+  2: Van
+  3: Cyclist
+  4: Truck
+  5: Tram
+  6: Person_sitting
+path: /DepthPrior/datasets/KITTI/yolo
+train: consist_train_init_V0_yolo.txt
+val: validation.txt

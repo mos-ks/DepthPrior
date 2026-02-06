@@ -1,0 +1,76 @@
+item {
+  id: 1
+  name: 'bed'
+}
+item {
+  id: 2
+  name: 'table'
+}
+item {
+  id: 3
+  name: 'sofa'
+}
+item {
+  id: 4
+  name: 'chair'
+}
+item {
+  id: 5
+  name: 'toilet'
+}
+item {
+  id: 6
+  name: 'desk'
+}
+item {
+  id: 7
+  name: 'dresser'
+}
+item {
+  id: 8
+  name: 'night_stand'
+}
+item {
+  id: 9
+  name: 'bookshelf'
+}
+item {
+  id: 10
+  name: 'bathtub'
+}
+item {
+  id: 11
+  name: 'box'
+}
+item {
+  id: 12
+  name: 'books'
+}
+item {
+  id: 13
+  name: 'bottle'
+}
+item {
+  id: 14
+  name: 'bag'
+}
+item {
+  id: 15
+  name: 'pillow'
+}
+item {
+  id: 16
+  name: 'monitor'
+}
+item {
+  id: 17
+  name: 'television'
+}
+item {
+  id: 18
+  name: 'lamp'
+}
+item {
+  id: 19
+  name: 'garbage_bin'
+}

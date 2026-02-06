@@ -1,0 +1,16 @@
+[project]
+name = "hiwi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "mlflow>=2.22.0",
+    "pycocotools>=2.0.8",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+    "ultralytics>=8.3.128",
+]
+

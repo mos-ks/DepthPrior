@@ -1,0 +1,8 @@
+eval_samples: 548
+hparams: /DepthPrior/object_detection/efficientdet/configs/train/allclasses_orig_visdrone.yaml
+infer_folder: /DepthPrior/datasets/visdrone/VisDrone2019-DET-val/images/
+infer_indices: /DepthPrior/datasets/visdrone/VisDrone2019-DET-val/validation_indices.txt
+model_dir: /DepthPrior/object_detection/efficientdet/models/trained_models/STAC/VISDRONE_STAC_teacher10_V0
+saved_model_dir: /DepthPrior/models/exported_models/SSL/EXP_VISDRONE_STAC_teacher10_V0
+val_file_pattern: /DepthPrior/datasets/visdrone/tfrecords/_val.tfrecord
+video_path: /DepthPrior/datasets/videos/xyz.mp4

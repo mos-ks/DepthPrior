@@ -1,0 +1,8 @@
+eval_samples: 1811
+hparams: /DepthPrior/object_detection/efficientdet/configs/train/allclasses_orig_sunrgbd2d.yaml
+infer_folder: /DepthPrior/datasets/SUNRGBD/val/images/
+infer_indices: /DepthPrior/datasets/SUNRGBD/val/validation_indices.txt
+model_dir: /DepthPrior/object_detection/efficientdet/models/trained_models/STAC/SUNRGBD_STAC_teacher10_V0
+saved_model_dir: /DepthPrior/models/exported_models/SSL/EXP_SUNRGBD_STAC_teacher10_V0
+val_file_pattern: /DepthPrior/datasets/SUNRGBD/tfrecords/_val.tfrecord
+video_path: /DepthPrior/datasets/videos/xyz.mp4

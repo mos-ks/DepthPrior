@@ -1,0 +1,23 @@
+names:
+  0: bed
+  1: table
+  2: sofa
+  3: chair
+  4: toilet
+  5: desk
+  6: dresser
+  7: night_stand
+  8: bookshelf
+  9: bathtub
+  10: box
+  11: books
+  12: bottle
+  13: bag
+  14: pillow
+  15: monitor
+  16: television
+  17: lamp
+  18: garbage_bin
+path: /path/to/data/DepthPrior/datasets/SUNRGBD
+train: train/training.csv
+val: val/validation.csv

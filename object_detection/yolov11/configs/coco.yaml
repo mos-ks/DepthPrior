@@ -1,0 +1,10 @@
+model: build/yolo11s.pt
+data: "./dataset-configs/coco.yaml"
+pretrained: false
+mlflow_tracking_uri: "sqlite:////runs/mlruns.db"
+mlflow_experiment_name: "coco"
+device: 0
+epochs: 100
+batch: 128
+imgsz: 640
+runs_dir: "/runs/coco"

@@ -1,0 +1,14 @@
+model: "/DepthPrior/object_detection/yolov11/build/yolo11s.pt"
+pretrained: false
+data: "/DepthPrior/object_detection/yolov11/dataset-configs/coco-subset.yaml"
+
+# MLflow settings
+mlflow_tracking_uri: "sqlite:////runs/mlruns.db"
+mlflow_experiment_name: "coco-subset"
+
+# Training settings
+device: 0
+epochs: 100
+batch: 64
+imgsz: 640
+runs_dir: "/runs/coco-subset"

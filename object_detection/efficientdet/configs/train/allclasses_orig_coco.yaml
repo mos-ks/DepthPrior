@@ -1,0 +1,9 @@
+---
+num_classes: 80
+image_size: '512x256'
+moving_average_decay: 0
+mixed_precision: True
+map_freq: 20
+label_map: 'coco'
+save_freq: 20
+enable_softmax: True

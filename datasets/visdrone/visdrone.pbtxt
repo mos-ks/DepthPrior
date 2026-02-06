@@ -1,0 +1,49 @@
+item {
+  id: 1
+  name: 'pedestrian'
+}
+
+item {
+  id: 2
+  name: 'people'
+}
+
+item {
+  id: 3
+  name: 'bicycle'
+}
+
+item {
+  id: 4
+  name: 'car'
+}
+
+item {
+  id: 5
+  name: 'van'
+}
+
+item {
+  id: 6
+  name: 'truck'
+}
+
+item {
+  id: 7
+  name: 'tricycle'
+}
+
+item {
+  id: 8
+  name: 'awning-tricycle'
+}
+
+item {
+  id: 9
+  name: 'bus'
+}
+
+item {
+  id: 10
+  name: 'motor'
+}

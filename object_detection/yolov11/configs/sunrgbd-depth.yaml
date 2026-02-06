@@ -1,0 +1,12 @@
+model: yolo11s.yaml
+pretrained: false
+data: "./dataset-configs/sunrgbd-depth.yaml"
+epochs: 100
+patience: 15
+batch: 16
+imgsz: 640
+project: "/runs-sunrgbd"
+name: "depth-strat-batch"
+far_weight: 2.0
+close_weight: 1.0
+depth_aware: "dls"

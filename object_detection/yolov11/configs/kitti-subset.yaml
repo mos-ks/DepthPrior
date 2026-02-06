@@ -1,0 +1,13 @@
+model: "/DepthPrior/object_detection/yolov11/build/yolo11s.pt"
+data: "/DepthPrior/object_detection/yolov11/dataset-configs/kitti-subset.yaml"
+pretrained: true
+# MLflow settings
+mlflow_tracking_uri: "sqlite:////runs/mlruns.db"
+mlflow_experiment_name: "kitti-subset"
+
+# Training settings
+device: 0
+epochs: 100
+batch: 64
+imgsz: 640
+runs_dir: "/runs/kitti-subset"

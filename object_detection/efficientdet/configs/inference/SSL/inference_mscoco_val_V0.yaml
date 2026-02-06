@@ -1,0 +1,8 @@
+eval_samples: 5000
+hparams: /DepthPrior/object_detection/efficientdet/configs/train/allclasses_orig_coco.yaml
+infer_folder: /DepthPrior/datasets/MSCOCO/val2017/images/
+infer_indices: /DepthPrior/datasets/MSCOCO/val2017/validation_indices.txt
+model_dir: /DepthPrior/object_detection/efficientdet/models/trained_models/STAC/MSCOCO_STAC_teacher10_V0
+saved_model_dir: /DepthPrior/models/exported_models/SSL/EXP_MSCOCO_STAC_teacher10_V0
+val_file_pattern: /DepthPrior/datasets/MSCOCO/tfrecords/_val.tfrecord
+video_path: /DepthPrior/datasets/videos/xyz.mp4

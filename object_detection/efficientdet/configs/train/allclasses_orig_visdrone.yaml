@@ -1,0 +1,10 @@
+---
+num_classes: 10
+image_size: '512x256'
+moving_average_decay: 0
+mixed_precision: True
+map_freq: 20
+label_map: 'visdrone'
+save_freq: 20
+enable_softmax: True
+max_instances_per_image: 1802

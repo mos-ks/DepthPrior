@@ -1,0 +1,13 @@
+names:
+  0: Pedestrian
+  1: DontCare
+  2: Car
+  3: Van
+  4: Cyclist
+  5: Truck
+  6: Misc
+  7: Tram
+  8: Person_sitting
+path: /DepthPrior/datasets/KITTI/yolo
+train: train/images.txt
+val: val/images.txt
