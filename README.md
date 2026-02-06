@@ -1,5 +1,7 @@
 # DepthPrior: Depth as Prior Knowledge for Object Detection
 
+[![arXiv](https://img.shields.io/badge/arXiv-2602.05730-b31b1b.svg)](https://arxiv.org/abs/2602.05730)
+
 Official implementation of **"Depth as Prior Knowledge for Object Detection"**.
 
 ## Abstract
